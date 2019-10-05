@@ -5,6 +5,7 @@
   "author": "nasum",
   "license": "MIT",
   "scripts": {
+    "build": "webpack -p",
     "dev": "webpack -w"
   },
   "dependencies": {

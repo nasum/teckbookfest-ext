@@ -10,7 +10,8 @@ module.exports = {
   mode: process.env.NODE_ENV || "development",
   entry: {
     background: "./src/background.ts",
-    popup: "./src/popup.ts"
+    popup: "./src/popup.ts",
+    content_scripts: "./src/content_scripts.ts"
   },
   output: {
     filename: '[name].js',
